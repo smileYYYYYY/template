@@ -7,7 +7,6 @@
 				let nowTime=new Date();
 				tarTime=new Date('2019/06/24 18:00:00');
 				const t=tarTime-nowTime;
-				//=>毫秒差中计算出对应的"时分秒";
 				if(t>=0){
 					let hours=Math.floor(t/1000/60/60%24);
 					let minutes=Math.floor(t/1000/60%60);
